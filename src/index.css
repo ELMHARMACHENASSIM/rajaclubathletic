@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'tailwindcss/tailwind.css';
+@import 'flowbite/dist/flowbite.css';
+
+@layer components {
+  /* frontend */
+    .Mycontainer {
+        @apply w-[80%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
+    }
+}
+@layer components {
+  /* section */
+  .cont {
+    @apply w-[95%] ps-[10px] pe-[10px] ms-[auto] me-[auto] ;
+  }
+
+}
+@layer components {
+  .mainTitle {
+    @apply border-s-[4px] border-green text-[30px] ps-[10px] my-[30px];
+  }
+
+}
+html{
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position : relative;
+}
+.overlay::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position : absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(255,255,255,0) 73%);
+}
+
+@font-face {
+  font-family: 'pB';
+  src: url(./assets/font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'ar';
+  src: url(./assets/font/Cairo.ttf);
+}
+@font-face {
+  font-family: 'pR';
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'pL';
+  src: url(./assets/font/Poppins-Light.ttf);
+}
+.sectionLogin{
+  background-image: url('./assets/images/other/coverlogin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.rounded-lg {
+  border-radius: 0 !important; /* Ensure no rounding */
+}

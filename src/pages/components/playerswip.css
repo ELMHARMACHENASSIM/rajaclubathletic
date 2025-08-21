@@ -1,0 +1,30 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    width: auto !important;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+  }
+  .my-custom-container {
+    margin-left: 200px; /* Adjust as needed */
+    /* Set your desired width */
+  }

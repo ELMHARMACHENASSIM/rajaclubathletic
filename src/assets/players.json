@@ -1,0 +1,395 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Anas Zniti",
+      "age": "Oct 28, 1988 (36)",
+      "position": "GK",
+      "image": "/players/zniti.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 1,
+      "cap": true
+    },
+    {
+      "id": "2",
+      "name": "El Mehdi Al Harrar",
+      "age": "Nov 30, 2000 (23)",
+      "position": "GK",
+      "image": "/players/alhrar.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 22
+    },
+    {
+      "id": "3",
+      "name": "Yassine zoubir",
+      "age": "Jan 24, 2002 (22)",
+      "position": "GK",
+      "image": "/players/zoubir.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 32
+    },
+    {
+      "id": "4",
+      "name": "Abdellah Khafifi",
+      "age": "Feb 19, 1993 (31)",
+      "position": "CB",
+      "image": "/players/khafifi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 5
+    },
+    {
+      "id": "5",
+      "name": "Benaissa Benamar",
+      "age": "Apr 8, 1997 (27)",
+      "position": "CB",
+      "image": "/players/benaissa.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 16
+    },
+    {
+      "id": "6",
+      "name": "Yasser Baldé",
+      "age": "Jan 12, 1993 (31)",
+      "position": "CB",
+      "image": "/players/baldel.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Guinea",
+      "num": 23
+    },
+    {
+      "id": "7",
+      "name": "Bouchaib Arrassi",
+      "age": "Jan 6, 2000 (24)",
+      "position": "CB",
+      "image": "/players/elarassi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 28
+    },
+    {
+      "id": "8",
+      "name": "Hani Amamou",
+      "age": "Sep 16, 1997 (27)",
+      "position": "CB",
+      "image": "/players/ammamo.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Tunisia",
+      "num": 4
+    },
+    {
+      "id": "9",
+      "name": "Youssef Belammari",
+      "age": " Sep 20, 1998 (26)",
+      "position": "LB",
+      "image": "/players/belaamri.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 17
+    },
+    {
+      "id": "10",
+      "name": "Zakaria Labib",
+      "age": "Feb 28, 2003 (21)",
+      "position": "LB",
+      "image": "/players/labib.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 3
+    },
+    {
+      "id": "11",
+      "name": "Mohamed Boulacsout",
+      "age": "Sep 23, 1998 (26)",
+      "position": "RB",
+      "image": "/players/bolksout.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 27
+    },
+    {
+      "id": "12",
+      "name": " Abdelkarim Baadi",
+      "age": "Apr 14, 1996 (28)",
+      "position": "RB",
+      "image": "/players/baadi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 2
+    },
+    {
+      "id": "13",
+      "name": "Mohamed Zrida",
+      "age": "Feb 1, 1999 (25)",
+      "position": "DM",
+      "image": "/players/zrida.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 19
+    },
+    {
+      "id": "14",
+      "name": "Hilal Ferdaoussi",
+      "age": "Jun 23, 1999 (25)",
+      "position": "CM",
+      "image": "/players/firdawsi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 8
+    },
+    {
+      "id": "15",
+      "name": "Mouhsine Bodda",
+      "age": "Jul 18, 1997 (27)",
+      "position": "CM",
+      "image": "/players/boda.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Mauritania",
+      "num": 6
+    },
+    {
+      "id": "16",
+      "name": "Federico Bikoro",
+      "age": "Mar 17, 1996 (28)",
+      "position": "CM",
+      "image": "/players/bikoro.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Equatorial Guinea",
+      "num": 18
+    },
+    {
+      "id": "17",
+      "name": "Sabir Bougrine",
+      "age": "Jul 10, 1996 (28)",
+      "position": "AM",
+      "image": "/players/bougrin.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 34
+    },
+    {
+      "id": "18",
+      "name": "Adam Ennaffati",
+      "age": "Jun 29, 1994 (30)",
+      "position": "LW",
+      "image": "/players/enafati.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 77
+    },
+    {
+      "id": "19",
+      "name": "Pape Ousmane Sakho",
+      "age": " Dec 21, 1996 (27)",
+      "position": "LW",
+      "image": "/players/sakho.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Senegal",
+      "num": 21
+    },
+    {
+      "id": "20",
+      "name": "Ayoub Maamouri",
+      "age": "Dec 1, 2000 (23)",
+      "position": "LW",
+      "image": "/players/mamouri.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 24
+    },
+    {
+      "id": "21",
+      "name": "Yousri Bouzok",
+      "age": "Aug 18, 1996 (28)",
+      "position": "RW",
+      "image": "/players/bouzok.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Algeria",
+      "num": 26
+    },
+    {
+      "id": "22",
+      "name": "Nawfel Zerhouni",
+      "age": "Sep 14, 1995 (29)",
+      "position": "RW",
+      "image": "/players/zarhouni.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 11
+    },
+    {
+      "id": "23",
+      "name": "Younes Najari",
+      "age": "Feb 6, 1996 (28)",
+      "position": "RW",
+      "image": "/players/najari.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 40
+    },
+    {
+      "id": "24",
+      "name": "Marouane Zila",
+      "age": "Jun 13, 1997 (27)",
+      "position": "RW",
+      "image": "/players/zila.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 20
+    },
+    {
+      "id": "25",
+      "name": "Abderahmane Soussi",
+      "age": "Jun 13, 1997 (27)",
+      "position": "CF",
+      "image": "/players/sousi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 29
+    },
+    {
+      "id": "26",
+      "name": "Houssine Rahimi",
+      "age": "Feb 4, 2002 (22)",
+      "position": "CF",
+      "image": "/players/rahimi.jpg",
+      "social": {
+        "ig": {
+          "logo": "/players/ig-logo.svg",
+          "url": "https://www.instagram.com/anas_zniti01/"
+        }
+      },
+      "country": "Morocco",
+      "num": 9
+    }
+  ]
+}
