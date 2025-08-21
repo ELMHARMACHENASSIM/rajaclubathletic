@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'tailwindcss/tailwind.css';
 @import 'flowbite/dist/flowbite.css';
 
 
