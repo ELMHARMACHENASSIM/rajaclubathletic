@@ -13,7 +13,7 @@ import atasanad from "../assets/images/spn/atasanad.png";
 import guichet from "../assets/images/spn/guichet.png";
 import blanc from "../assets/images/spn/logo-blanc.png";
 import marsa from "../assets/images/spn/Marsa.png";
-import nordar from "../assets/images/spn/nor-dar.png";
+
 import sofac from "../assets/images/spn/sofac.png";
 import umbro from "../assets/images/spn/umbro.png";
 import sportm from "../assets/images/spn/sportm.png";
@@ -597,13 +597,7 @@ const News = () => {
               className="w-[100%] h-[100%] opacity-[0.4] hover:opacity-[1]  transition-[0.5s]  "
             />
           </div>
-          <div className="w-[60px] h-[auto]">
-            <img
-              src={nordar}
-              alt=""
-              className="w-[100%] h-[100%] opacity-[0.4] hover:opacity-[1]  transition-[0.5s]  "
-            />
-          </div>
+       
           <div className="w-[60px] h-[auto]">
             <img
               src={sofac}
