@@ -5,7 +5,7 @@ import News from "../pages/News";
 import Shop from "../pages/Shop";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import Matches from "../pages/matches";
+import Matches from "../pages/Matches";
 import Squads from "../pages/Squads";
 import Tickets from "../pages/Tickets";
 import Media from "../pages/Media";
