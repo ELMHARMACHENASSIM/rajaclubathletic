@@ -26,7 +26,6 @@ import rcaApp from "../assets/images/news/appl.png";
 import rcaBook1 from "../assets/images/book/book1.png";
 import rcaBook2 from "../assets/images/book/book1.png";
 import rcaBook3 from "../assets/images/book/book1.png";
-
 import anker from "../assets/images/spn/anker.png";
 import anp from "../assets/images/spn/ANP.png";
 import atasanad from "../assets/images/spn/atasanad.png";
