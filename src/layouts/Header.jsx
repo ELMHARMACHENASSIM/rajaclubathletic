@@ -13,7 +13,7 @@ import {
 import Time from "./components/Time";
 
 import snp3 from "../assets/images/spn/Marsa.png"
-import snp4 from "../assets/images/spn/Umbro.png"
+import snp4 from "../assets/images/spn/umbro.png"
 import { useEffect, useState } from "react";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 

@@ -15,7 +15,7 @@ import blanc from "../assets/images/spn/logo-blanc.png";
 import marsa from "../assets/images/spn/Marsa.png";
 import nordar from "../assets/images/spn/nor-dar.png";
 import sofac from "../assets/images/spn/sofac.png";
-import umbro from "../assets/images/spn/Umbro.png";
+import umbro from "../assets/images/spn/umbro.png";
 import sportm from "../assets/images/spn/sportm.png";
 import kayna from "../assets/images/spn/kayna.png";
 import changan from "../assets/images/spn/changan.png";
