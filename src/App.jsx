@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { RouterProvider } from "react-router-dom";
 import routerDom from "./layouts/Index";
-import logoRajaGreen from "./assets/images/logos/logorajagreen.png";
+import logoRaja from "./assets/images/logos/logorajagreen.png";
 import logoMarsa from "./assets/images/spn/Marsa.png";
 import { BarLoader } from "react-spinners";
 
@@ -22,7 +22,7 @@ const App = () => {
               <div className="w-[100%] flex items-center justify-center gap-[50px]">
                 <div className="w-[150px] h-[200px]">
                   <img
-                    src={logoRajaGreen}
+                    src={logoRaja}
                     alt=""
                     className="w-[100%] h-[100%] fit-cover"
                   />
