@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { RouterProvider } from "react-router-dom";
 import routerDom from "./layouts/Index";
-import logoRaja from "./assets/images/logos/logorajagreen.png";
+import logoRaja from "./assets/images/logos/logo-raja-green.png";
 import logoMarsa from "./assets/images/spn/Marsa.png";
 import { BarLoader } from "react-spinners";
 
