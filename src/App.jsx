@@ -6,64 +6,54 @@ import logoMarsa from "./assets/images/spn/Marsa.png";
 import { BarLoader } from "react-spinners";
 
 const App = () => {
-  const [loading, setLoading] = useState(true); // start with true
+  const [loading, setLoading] = useState(true);
+ useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false); // hide loader after EVERYTHING is loaded
+    };
 
-  useEffect(() => {
-    // Preload images
-    const images = [logoRaja, logoMarsa];
-    let loadedCount = 0;
+    // if already loaded (e.g. on fast reloads)
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+    }
 
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-      img.onload = () => {
-        loadedCount++;
-        if (loadedCount === images.length) {
-          setLoading(false); // all images are ready
-        }
-      };
-      img.onerror = () => {
-        loadedCount++;
-        if (loadedCount === images.length) {
-          setLoading(false); // even if some fail
-        }
-      };
-    });
+    return () => window.removeEventListener("load", handleLoad);
   }, []);
-
   return (
     <>
       {loading ? (
-        <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-white overflow-y-hidden">
-          <div className="w-[500px] h-[600px] flex justify-center items-center flex-col gap-[30px]">
-            <div className="w-[100%] flex items-center justify-center gap-[50px]">
-              <div className="w-[150px] h-[200px]">
-                <img
-                  src={logoRaja}
-                  alt="raja"
-                  className="w-[100%] h-[100%] object-contain"
-                />
+        <>
+          <div className=" w-[100vw] h-[100vh]  flex justify-center items-center bg-white overflow-y-hidden">
+            <div className="w-[500px] h-[600px] flex justify-center items-center flex-col gap-[30px]">
+              <div className="w-[100%] flex items-center justify-center gap-[50px]">
+                <div className="w-[150px] h-[200px]">
+                  <img
+                    src={logoRaja}
+                    alt=""
+                    className="w-[100%] h-[100%] fit-cover"
+                  />
+                </div>
+                <div className="h-[100%] w-[2px] bg-green"></div>
+                <div>
+                  {" "}
+                  <div className="w-[150px] h-[100%]">
+                    <img
+                      src={logoMarsa}
+                      alt=""
+                      className="w-[100%] h-[100%] fit-cover invert"
+                    />
+                  </div>
+                </div>
               </div>
-              <div className="h-[100%] w-[2px] bg-green"></div>
-              <div className="w-[150px] h-[100%]">
-                <img
-                  src={logoMarsa}
-                  alt="marsa"
-                  className="w-[100%] h-[100%] object-contain invert"
-                />
-              </div>
-            </div>
 
-            <div className="w-[100%] h-[3px] flex justify-center items-center">
-              <BarLoader
-                width={500}
-                color={"#365E32"}
-                loading={loading}
-                speedMultiplier={1}
-              />
+              <div className="w-[100%] h-[3px] flex justify-center items-center">
+                <BarLoader width={500} color={"#365E32"} loading={loading} speedMultiplier={1} />
+              </div>
             </div>
           </div>
-        </div>
+        </>
       ) : (
         <RouterProvider router={routerDom} />
       )}
