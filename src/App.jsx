@@ -6,20 +6,12 @@ import logoMarsa from "./assets/images/spn/Marsa.png";
 import { BarLoader } from "react-spinners";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
- useEffect(() => {
-    const handleLoad = () => {
-      setLoading(false); // hide loader after EVERYTHING is loaded
-    };
-
-    // if already loaded (e.g. on fast reloads)
-    if (document.readyState === "complete") {
-      handleLoad();
-    } else {
-      window.addEventListener("load", handleLoad);
-    }
-
-    return () => window.removeEventListener("load", handleLoad);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 10000);
   }, []);
   return (
     <>
