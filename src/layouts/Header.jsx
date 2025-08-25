@@ -77,7 +77,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Home
                   </Link>
@@ -85,7 +85,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/news"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     News
                   </Link>
@@ -93,7 +93,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/matches"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Matches
                   </Link>
@@ -101,7 +101,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/shop"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Shop
                   </Link>
@@ -109,7 +109,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/squads"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Squads
                   </Link>
@@ -117,7 +117,7 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/tickets"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Tickets
                   </Link>
@@ -125,30 +125,63 @@ const Header = () => {
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/media"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     Media
                   </Link>
                 </li>
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
-                    to={"/About"}
-                    className="p-[10px] text-dark text-[15px] no-underline"
+                    to={"/about"}
+                    className="p-[5px] text-dark text-[15px] no-underline"
                   >
                     About
                   </Link>
                 </li>
+                   <li className="h-[100%] flex justify-center items-center">
+                  <Link
+                    to={"/faqs"}
+                    className="p-[5px] text-dark text-[15px] no-underline"
+                  >
+                    FaQs
+                  </Link>
+                </li>
+                    <li className="h-[100%] flex justify-center items-center">
+                  <Link
+                    to={"/faqs"}
+                    className="p-[5px] text-dark text-[15px] no-underline"
+                  >
+                    Raja TV
+                  </Link>
+                </li>
+                    <li className="h-[100%] flex justify-center items-center">
+                  <Link
+                    to={"/faqs"}
+                    className="p-[5px] text-dark text-[15px] no-underline"
+                  >
+                     VIP & Events
+                  </Link>
+                </li>
+               
               </ul>
               <ul className="flex h-[100%] justify-center gap-[20px] items-center">
                 <li className="h-[100%] flex justify-center items-center">
                   <Link
                     to={"/login"}
-                    className="px-[15px] py-[5px] text-white bg-dark  text-[15px] no-underline "
+                    className="px-[25px] py-[10px] text-white bg-green  text-[15px] no-underline "
+                  >
+                   <span>MEMBERSHIPS</span>
+                  </Link>
+                </li>
+                <li className="h-[100%] flex justify-center items-center">
+                  <Link
+                    to={"/login"}
+                    className="px-[25px] py-[10px] text-white bg-dark  text-[15px] no-underline "
                   >
                     <FontAwesomeIcon icon={faUser} className="text-white me-[5px]"/> <span>Login</span>
                   </Link>
                 </li>
-            
+             
               </ul>
             </div>
           </div>

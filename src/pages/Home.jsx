@@ -49,7 +49,7 @@ const Home = () => {
     <>
       <div className="pt-[50px] select-none">
         {/* Background Video */}
-        <section className="w-[100%] h-[90vh]">
+        <section className="w-[100%] h-[80vh]">
           <div className="w-[100%] h-[100%] relative ">
             <div className="bg-[#0000007a] absolute top-[0] left-[0] w-[100%] h-[100%] z-[99] "></div>
             <video

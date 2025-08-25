@@ -10,6 +10,7 @@ import Squads from "../pages/Squads";
 import Tickets from "../pages/Tickets";
 import Media from "../pages/Media";
 import About from "../pages/About";
+import Faqs from "../pages/Faqs";
 
 const routerDom = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const routerDom = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+       {
+        path: "/faqs",
+        element: <Faqs />,
       },
       {
         path: "/login",

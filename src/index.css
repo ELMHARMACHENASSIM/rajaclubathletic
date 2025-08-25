@@ -13,7 +13,7 @@
 @layer components {
   /* frontend */
     .Mycontainer {
-        @apply w-[80%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
+        @apply w-[85%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
     }
 }
 @layer components {
